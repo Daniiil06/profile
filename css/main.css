@@ -1,0 +1,151 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+ul{
+  list-style: none;
+}
+
+a{
+  text-decoration: none;
+}
+
+body{
+  background: #87CEEB;
+  font:12px/1.67 Arial,Helvetica,sans-serif; 
+  padding: 40px,0;
+}
+
+.wrapper{
+  width: 960px;
+  margin: 10px auto;
+}
+
+nav{
+  float: right;
+}
+
+nav li{
+  float: right;
+  margin: 11pt 30pt 0 5pt ;
+}
+
+nav li a{
+  color: #1E90FF;
+  text-transform: uppercase;
+  font-weight: bold;
+  padding: 5px 35px;
+}
+
+nav li a:hover{
+  color: #FFF;
+  background: #1E90FF;
+  -o-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+}
+
+nav li.current a{
+  color: #FFF;
+  background: #1E90FF;
+  -o-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+}
+
+.contacts{
+  background: #1E90FF;
+  padding: 10px 50px;
+  width: 860px;
+  position: fixed;
+  bottom: 0;
+  margin: 15px auto;
+  right: 0;
+  left: 0;
+  -o-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.contacts ul{
+  text-align:center;
+}
+
+.contacts li{
+  display:inline-block;
+  margin-right:10px;
+  padding: 5px 0 5px 0;
+}
+
+.contacts li a:hover{ 
+  background: #87CEEB;
+  -o-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+}
+
+.contacts a{
+  display: block;
+  padding: 5px 80px;
+}
+
+.contacts h3{
+  font-size: 11px;
+  color: #FFF;
+  border-radius: 5px;
+
+}
+
+.contacts:after{
+  content: '';
+  display: table;
+  clear: both;
+}
+
+.vk{
+  border-radius: 10px;
+}
+
+.content{
+  background: #fff;
+  width: 950px;
+  margin: 10px auto;
+  margin-bottom: 150px;
+  -o-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+}
+
+.content h2{
+  padding: 10px 10px 0 10px;
+}
+
+.content p{
+  padding: 10px 10px 0 10px;
+}
+
+
+                         /* HEADER BEGIN */
+header{
+  background: #fff;
+  height: 50px;
+  -o-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  border: 1px solid #1E90FF;
+}
+
+header h1{
+  font:;
+  float: left;
+  margin: 8px 0 0 10px;
+}
+                         /* HEADER END */
